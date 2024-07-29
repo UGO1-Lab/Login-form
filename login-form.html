@@ -1,17 +1,58 @@
 <!DOCTYPE html>
 <html>
+<head>
+  <title>login-form</title>
+  <style>
+    body { 
+      text-align: center;
+      background-color: #8C8FAC2B;
+      
+  .login-box form {
+	display: flex;
+	flex-direction: column;
+	
+}
 
-<div class-"login-box">
- <h2>Login</h2>
- <form> 
- 
-   <label for="username"> username:</label>
-   <input type="text" id="username" name="username">
+.login-box label {
+	margin-bottom: 10px;
+}
+
+.login-box input[type="text"], .login-box input[type="password"] {
+	padding: 10px;
+	margin:auto;
+	width: 300px;
+	margin-bottom: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+.login-box button[type="submit"] {
+	background-color: #4CAF50;
+	color: #fff;
+	margin: auto;
+	width: 320px;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 7px;
+	cursor: pointer;
+}
+  </style>
+
+</head>
+<body> 
+  <div class="login-box">
+    <h2>Login</h2>
+    <form> 
+     <label for="username"> username:</label>
+     <input type="text" id="username" name="username">
    
-      <label for ="password"> password:</label>
+   
+     <label for ="password"> password:</label>
       
       <input type="password" id="password" name="password">
-      <button type="submit">login here</button>
-      </form>
-      </div>
       
+      <button type="submit">login here</button>
+    </form>
+</div>
+</body>
+</html>
