@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Registration-page</title>
+  
+  <style>
+  
+  body{
+  font-family:Arial,sans-serif;
+  background-color:#98AC9C2E;
+  text-align:center
+  }
+  
+  form {
+  width:200px;
+ margin:20px auto;
+ padding:6px;
+ box-shadow: 0 0 10px #0F1985
+
+  }
+  
+  label {
+  display:block;
+  margin-bottom:12px;
+  font-weight:bold;
+  }
+  
+  input[type="text"]
+  input[type="email"]
+  input[type="tel"]
+  input[type="password"] {
+  width:100px;
+  height:40px;
+  margin-bottom:20px;
+  padding:10px;
+  border:10px solid rgba(15, 25, 133, 1);
+  
+  }
+  
+  input[type="Submit"] {
+  width:90px;
+  height: 40px;
+  background-color:#4CAF50;
+  color:#fff;
+  padding:10px;
+  border:none;
+  border-radius:5px;
+  cursor:pointer;
+  margin-top:20px;
+  }
+  
+  
+  </style>
+  
+</head>
+
+<body>
+
+<h1>Create an account</h1>
+
+
+<p>This will only take a minute. Fill out the form below to create your new account.</p>
+
+<form>
+  
+  <div class="field">
+  <label for="fullname">Fullname:</label>
+  <input type ="text" placeholder ="Fullname" id="fullname">
+  </div>
+   
+  <div class="field"> 
+  <label for="username">Username:</label>
+  <input type="text"  placeholder="Username" id="username"></div>
+  
+  <div class="field">
+  <label for="email">Email:</label>
+  <input type=text" placeholder="Email"
+ id="email"></div>
+  
+  <div class="field">
+  <label for="residencialaddress">Residencial address:</label>
+  <input type="text" placeholder="Residential address"
+ id="residentialaddress"></div>
+  
+  <div class="field">
+  <label for="phonenumber">Phone number:</label>
+  <input type="text" placeholder="Phone number"
+ id="phonenumber"></div>
+  
+  <div class="field">
+  <label for="password">Password:</label>
+  <input type="Password" placeholder="Password"
+ id="password"></div>
+  
+  <div class="field">
+  <label for="confirmpassword">Confirm password:</label>
+  <input type="password" placeholder="Confirm password"
+ id="confirmpassword"></div>
+ 
+ <input type="Submit" value="Register">
+  
+</form>
+   
+</body>
+
+</html>
