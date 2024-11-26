@@ -5,8 +5,8 @@
 }
 
 body{
-  background: rgb(212,203,49);
-background: linear-gradient(90deg, rgba(212,203,49,1) 0%, rgba(37,155,213,1) 100%);
+  background: rgb(208,128,170);
+  background: linear-gradient(95deg, rgba(208,128,170,1) 0%, rgba(37,91,116,1) 11%); 
   display: flex ;
   align-items: center ;
   flex-direction:column ;
@@ -63,7 +63,8 @@ ul{
 }
   
 .account-list > ul > li{
-  background-color: #060033;
+  background: rgb(37,49,71);
+  background: linear-gradient(95deg, rgba(37,49,71,1) 100%, rgba(35,53,66,1) 100%);
   height:70px;
   margin:10px 0;
   list-style: none;
@@ -121,10 +122,26 @@ footer{
 
 .extra{
   margin-top: 10px ;
-  color:#1A3FD6;
-  border-color:#1A3FD6;
+  color:#0918a0da;
+  border-color:#0918a0da;
 }
 
-.logo{
-  width:150px;
+.meta-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  height: 70px;
+  gap: 7px;
+}
+
+.meta-container i {
+font-size: 20px;
+color: white;
+}
+
+.meta-container h3 {
+  font-family: Arial,sans-serif;
+  font-size: 20px;
+  color: white;
 }
